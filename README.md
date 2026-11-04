@@ -39,3 +39,8 @@ Perquisites: **Both Devices(This device and a karaoke platform) must BE connecte
 *Please make sure if you typed the IP address correctly. If you're getting some issues, **you MUST set the URL with http INSTEAD of https in the MansanasHub website***
 
 And that's all for this Information. Feel free to creates Issues and Feedback if you encounter bug(yots)!
+
+
+> **DIHHSCLAIMER**  
+> MansanasHub Remote is provided "as is" without any warranties. The developers are not responsible for any issues arising from the use of this software. Not affiliated by jpdcs.
+> 
