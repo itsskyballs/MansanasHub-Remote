@@ -1,1 +1,21 @@
-
+workflows:
+  ios-pwabuilder:
+    name: MansanasHub Remote
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install pods
+        script: |
+          cd ios || cd .
+          pod install || echo "no pods, skipping"
+      - name: Build IPA
+        script: |
+          xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Release archive -archivePath build/App.xcarchive CODE_SIGNING_ALLOWED=NO || \
+          xcodebuild -project *.xcodeproj -scheme * -configuration Release archive -archivePath build/App.xcarchive CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - build/*.ipa
+      - build/*.app
+      - /tmp/xcodebuild_logs/*.log
