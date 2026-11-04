@@ -1,7 +1,7 @@
 # MansanasHub Remote
 This is a informative description, feedback and requests for MansanasHub Remote, even if it's closed source
 
-MansanasHub Remote is a closed source karaoke web remote link website that allows YOU to connect [SongHub](https://github.com/jpdcs/SongHub-Android) (and notably RCKaraoke in experimental phase) devices and control them just like you would on [SongHub Remote Link](https://github.com/jpdcs/SongHub-Smart-Link). Created by TigbasonKaKaronCompany by Steven Kieth "[Skyballs](github.com/itsskyballs)" Durog.
+MansanasHub Remote is a closed source karaoke web remote link website that allows YOU to connect [SongHub](https://github.com/jpdcs/SongHub-Android) (and notably RCKaraoke in experimental phase) devices and control them just like you would on [SongHub Remote Link](https://github.com/jpdcs/SongHub-Smart-Link). Created by TigbasonKaKaronCompany by Steven Kieth "[Skyballs](https://github.com/itsskyballs)" Durog.
 
 [You can visit MansanasHub Remote by clicking here, bayot ang tapulan](http://mansanashub.infinityfreeapp.com)
 
@@ -40,7 +40,7 @@ Perquisites: **Both Devices(This device and a karaoke platform) must BE connecte
 
 And that's all for this Information. Feel free to creates Issues and Feedback if you encounter bug(yots)!
 
-
+> [!WARNING]
 > **DIHHSCLAIMER**  
 > MansanasHub Remote is provided "as is" without any warranties. The developers are not responsible for any issues arising from the use of this software. Not affiliated by jpdcs.
 > 
